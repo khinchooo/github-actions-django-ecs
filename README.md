@@ -3,15 +3,15 @@
 ## AWS CloudFormation
 - テンプレート検証
     ```
-    aws cloudformation validate-template
-    --template-body file://./
+    aws cloudformation validate-template 
+    --template-body file://./ 
     cloudformation/network.yml
     ```
 
 - スタック作成
     ```
-    aws cloudformation create-stack
-    --stack-name khinchooo-stack
+    aws cloudformation create-stack 
+    --stack-name khinchooo-stack 
     --template-body file://./cloudformation/network.yml
     ```
 
