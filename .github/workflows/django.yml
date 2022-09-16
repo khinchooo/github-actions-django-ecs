@@ -27,7 +27,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python manage.py test
+        python MyDjangoProject/manage.py test
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
